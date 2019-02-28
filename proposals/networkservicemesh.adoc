@@ -74,6 +74,7 @@ Developers never have to know or think about 35 year old legacy Networking conce
 * Existing Sponsors:
   * Cisco
   * VMWare
+  * RedHat
   * Bell Canada
   * Orange
 
