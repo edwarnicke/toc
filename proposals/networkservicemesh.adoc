@@ -1,0 +1,70 @@
+== Network Service Mesh Proposal
+
+*Name of project:* Network Service Mesh
+
+*Description*
+
+Network Service Mesh is a novel approach solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
+
+Network Service Mesh recognizes and respects that the existing K8s Networking provides excellent service for the common developer use cases, and has therefore adopted an orthogonal approach to the CNI that currently provides K8s Networking, leaving that path completely unaltered.
+It requires no changes of any kind to the CNI plugin being used, or to Kubernetes itself to function.  It runs as an additional layer of infrastructure on top of stock out of the box K8s.
+
+When Network Service Mesh is installed on a K8s cluster, a developer can simply specify in an annotation on their Pod the name of the Network Service they want, like "secure-intranet-connectivity" and Network Service Mesh will insure that is available to their Pods (not to the cluster as a whole) in addition to the standard K8s Networking provided by their CNI and in a manner that is completely non-conflicting with it.
+
+While much of the work being done in Network Service Mesh is focused on K8s support, it is designed to not be welded to K8s.  It has been architected to also bring its benefits to other environments, like VIMs, Physical Networks, or Legacy Servers.
+
+*Statement on alignment with CNCF mission*:
+
+Network Service Mesh is designed to allow any L2/L3 Network Service a workload may want to be dynamically available to it.   It is seeking to make networking itself Cloud-native by bringing acknowledging and working with the existing immutable infrastrcture in K8s to loosely couple whatever non-standard Networking needs a workload has with minimal toil.
+It adopts a networking paradigm of allowing the developer to name the Network Service they want, apply metadata in the form of labels, and be simply connected to it.  It forcing the 35 year old legacy networking concepts like "subnet", "route", "interface", or "ipam" on the developer.  Those have no place in a Cloud-native world.
+
+*Sponsor / Advisor from TOC*:
+
+*Unique identifier:* networkservicemesh
+
+*Prefered Maturity Level*: Sandbox
+
+*License*: Apache License v2.0
+
+*Source control repositories*: link:https://github.com/networkservicemesh[GitHub]
+
+*Initial Committers*:
+* Frederick Kautz (doc.ai)
+* Ed Warnicke (Cisco)
+* Nikolay Nikolaev (VMWare)
+
+*Infrastructure requirements (CI / CNCF Cluster)*: CI (currently use CircleCI), Packet/GKE/AKS/EKS/etc time for system tests
+
+*Communication Channels*:
+
+* Mailing List: https://groups.google.com/forum/#!forum/networkservicemesh
+* IRC: #networkservicemesh on Freenode
+* Weekly Meetings: 
+  * link:https://docs.google.com/document/d/1C9NKjo0PWNWypROEO9-Y6haw5h9Xmurvl14SXpciz2Y/edit#heading=h.rc9df0a6n3ng[Main Meeting]
+  * link:https://docs.google.com/document/d/1113nzdL-DcDAWT3963IsS9LeekgXLTgGebxPO7ZnJaA/edit#heading=h.8t1wzcxy1me6[Documentation subgroup meeting]
+  * Use case subgroup meeting: 
+
+*Issue Tracker*: link:https://github.com/networkservicemesh/networkservicemesh/issues[Github Issues]
+
+*Website*: https://networkservicemesh.io/
+
+*Release Methodology and Mechanics*: 
+
+*Social Media Accounts*:
+  * link:https://www.linkedin.com/company/networkservicemesh[LinkedIn]
+  * link:https://twitter.com/nservicemesh[Twitter]
+
+*Community size and existing sponsorship*:
+* Github Stars: 111
+* Github Forks: 38
+* Code Contributors: 18
+* Usual meeting census: ~20
+* Youtube views of Weekly meetings: link:https://www.youtube.com/results?search_query=network+service+mesh+wg+2019[More than 100 typically]
+* Youtube views of Network Service Mesh Intro talk at Kubecon NA 2019: link:https://www.youtube.com/watch?v=YeAKtUFaqQ0&t=2s[More than 1300]
+* Existing Sponsors:
+  * Cisco
+  * VMWare
+
+*Other Reference Material*:
+* Network Service Mesh Intro (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit[Slides] (link:https://www.youtube.com/watch?v=YeAKtUFaqQ0[Video])
+* Netowrk Service Mesh Deep Dive (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1YWagIAT3hCqF8zZ3wpC6woZ038Y42lKpXv12kjKZC6Q/edit#slide=id.g49d60c8d41_2_46[Slides] (link:https://www.youtube.com/watch?v=SGi9LS870rk[Video])
