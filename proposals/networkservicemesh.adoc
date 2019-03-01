@@ -15,7 +15,7 @@ Network Service Mesh takes a true Cloud-native approach to the problem space, ma
 
 *Statement on alignment with CNCF mission*:
 
-Network Service Mesh is designed to allow any L2/L3 Network Service a workload may want to be dynamically available to it.   It is seeking to make networking itself Cloud-native by bringing acknowledging and working with the existing immutable infrastrcture in K8s to loosely couple whatever non-standard Networking needs a workload has with minimal toil.
+Network Service Mesh is designed a workload to dynamically request at any point in its lifecycle the L2/L3 Network Service it needs.   It makes networking itself Cloud-native by loosely coupling with the existing immutable infrastrcture in K8s to deliver whatever non-standard Networking needs a workload has with minimal toil.
 
 The Network Service Mesh model is:
 * Developers ask for what Network Service they want by name
