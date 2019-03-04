@@ -4,14 +4,15 @@
 
 *Description*
 
-Network Service Mesh is a novel approach solving complicated L2/L3 use cases in Kubernetes that are tricky to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
+Network Service Mesh is a novel approach to solving complicated L2/L3 use cases in Kubernetes that are difficult or impossible to address with the existing Kubernetes Network Model. Inspired by Istio, Network Service Mesh maps the concept of a service mesh to L2/L3 payloads.
 
-Network Service Mesh recognizes and respects that the existing K8s Networking provides excellent service for the common developer use cases, and has therefore adopted an orthogonal approach to the CNI that currently provides K8s Networking, leaving that path completely unaltered.
-It requires no changes of any kind to the CNI plugin being used, or to Kubernetes itself to function.  It runs as an additional layer of infrastructure on top of stock out of the box K8s.
+Network Service Mesh recognizes and respects that the existing Kubernetes Networking provides excellent service for common developer use cases, and has therefore adopted an approach It seeks to make networking itself cloud-native by bringing, acknowledging to the CNI currently providing Kubernetes Networking, leaving that path completely unaltered.
 
-When Network Service Mesh is installed on a K8s cluster, a developer can simply specify in an annotation on their Pod the name of the Network Service they want, like "secure-intranet-connectivity" and Network Service Mesh will ensure that is available to their Pods (not to the cluster as a whole) in addition to the standard K8s Networking provided by their CNI and in a manner that is completely non-conflicting with it.
+Network Service Mesh requires no changes to the CNI plugin being used, or to Kubernetes itself to function.  It runs as an additional layer of infrastructure on top of stock out of the box Kubernetes.
 
-Network Service Mesh takes a true Cloud-native approach to the problem space, maintaining loose coupling to the underlying Infra structure it uses.  This allows it to fit naturally into K8s, but also be used in other environments like VIMs Physical Netorks or Legacy Servers.
+When Network Service Mesh is installed on a K8s cluster, a developer can simply specify in an annotation on their Pod the name of the Network Service they want, such as "secure-intranet-connectivity".   Network Service Mesh will ensure that Network Service is available to their Pods (not to the cluster as a whole).  Standard Kubernetes Networking is provided by their CNI.  Network Service Mesh stakes care to insure that it is completely non-conflicting with Kubernetes Networking.
+
+Network Service Mesh takes a true Cloud-native approach to the problem space, maintaining loose coupling to the underlying Infrastructure it utilizes.  This allows it to fit naturally into Kubernetes, but also be used in other environments like VIMs Physical Netorks or Legacy Servers.
 
 *Statement on alignment with CNCF mission*:
 
