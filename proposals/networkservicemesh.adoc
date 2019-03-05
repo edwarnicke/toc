@@ -78,6 +78,7 @@ Developers never have to know or think about 35 year old legacy Networking conce
   * RedHat
   * Bell Canada
   * Orange
+  * doc.ai
 
 *Other Reference Material*:
 * Network Service Mesh Intro (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit[Slides] (link:https://www.youtube.com/watch?v=YeAKtUFaqQ0[Video])
