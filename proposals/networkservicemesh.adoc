@@ -29,7 +29,7 @@ Developers never have to know or think about 35 year old legacy Networking conce
 * Routes
 * IPAM
 
-*Sponsor / Advisor from TOC*:
+*Sponsor / Advisor from TOC*: Matt Klein, Joe Beda
 
 *Unique identifier:* networkservicemesh
 
