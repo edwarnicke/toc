@@ -51,15 +51,15 @@ Developers never have to know or think about 35 year old legacy Networking conce
 * Mailing List: https://groups.google.com/forum/#!forum/networkservicemesh
 * IRC: #networkservicemesh on Freenode
 * Weekly Meetings: 
-  * link:https://docs.google.com/document/d/1C9NKjo0PWNWypROEO9-Y6haw5h9Xmurvl14SXpciz2Y/edit#heading=h.rc9df0a6n3ng[Main Meeting]
-  * link:https://docs.google.com/document/d/1113nzdL-DcDAWT3963IsS9LeekgXLTgGebxPO7ZnJaA/edit#heading=h.8t1wzcxy1me6[Documentation subgroup meeting]
-  * Use case subgroup meeting: 
+  * link:https://docs.google.com/document/d/1C9NKjo0PWNWypROEO9-Y6haw5h9Xmurvl14SXpciz2Y/edit[Main Meeting]
+  * link:https://docs.google.com/document/d/1113nzdL-DcDAWT3963IsS9LeekgXLTgGebxPO7ZnJaA/edit[Documentation subgroup meeting]
+  * link:https://docs.google.com/document/d/1L6kwLW6yvj1EfUgDbdurCpgw2qWrX3ZJJ8Vh3FRqrOo/edit[Use Case subgroup meeting]
 
 *Issue Tracker*: link:https://github.com/networkservicemesh/networkservicemesh/issues[Github Issues]
 
 *Website*: https://networkservicemesh.io/
 
-*Release Methodology and Mechanics*: 
+*Release Methodology and Mechanics*: link:https://github.com/networkservicemesh/networkservicemesh/blob/master/docs/spec/release.md[Release Mechanics Defined in Github]
 
 *Social Media Accounts*:
   * link:https://www.linkedin.com/company/networkservicemesh[LinkedIn]
@@ -71,14 +71,14 @@ Developers never have to know or think about 35 year old legacy Networking conce
 * Code Contributors: 18
 * Usual meeting census: ~20
 * Youtube views of Weekly meetings: link:https://www.youtube.com/results?search_query=network+service+mesh+wg+2019[More than 100 typically]
-* Youtube views of Network Service Mesh Intro talk at Kubecon NA 2019: link:https://www.youtube.com/watch?v=YeAKtUFaqQ0&t=2s[More than 1300]
+* Youtube views of Network Service Mesh Intro talk at Kubecon NA 2018: link:https://www.youtube.com/watch?v=YeAKtUFaqQ0&t=2s[More than 1400]
 * Existing Sponsors:
-  * Cisco
-  * VMWare
-  * RedHat
   * Bell Canada
-  * Orange
+  * Cisco
   * doc.ai
+  * Orange
+  * RedHat
+  * VMWare
 
 *Other Reference Material*:
 * Network Service Mesh Intro (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit[Slides] (link:https://www.youtube.com/watch?v=YeAKtUFaqQ0[Video])
