@@ -83,3 +83,4 @@ Developers never have to know or think about 35 year old legacy Networking conce
 *Other Reference Material*:
 * Network Service Mesh Intro (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit[Slides] (link:https://www.youtube.com/watch?v=YeAKtUFaqQ0[Video])
 * Netowrk Service Mesh Deep Dive (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1YWagIAT3hCqF8zZ3wpC6woZ038Y42lKpXv12kjKZC6Q/edit#slide=id.g49d60c8d41_2_46[Slides] (link:https://www.youtube.com/watch?v=SGi9LS870rk[Video])
+* link:https://docs.google.com/presentation/d/18OrkofcPZnyBIRlPSSZV1gG8cY8kjYHsoN1mDlRu2Ro[Network Service Mesh Slide for Presentation to TOC]
