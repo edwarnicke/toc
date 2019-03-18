@@ -47,7 +47,10 @@ Developers never have to know or think about 35 year old legacy Networking conce
 * Nikolay Nikolaev (VMWare)
 * Ed Warnicke (Cisco)
 
-*Infrastructure requirements (CI / CNCF Cluster)*: CI (currently use CircleCI), Packet/GKE/AKS/EKS/etc time for system tests
+*Infrastructure requirements (CI / CNCF Cluster)*: 
+
+* CI (currently use CircleCI)
+* Packet/GKE/AKS/EKS/etc time for system tests
 
 *Communication Channels*:
 
