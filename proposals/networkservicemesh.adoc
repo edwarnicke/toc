@@ -29,7 +29,7 @@ Developers never have to know or think about 35 year old legacy Networking conce
 * Routes
 * IPAM
 
-*Sponsor / Advisor from TOC*: Matt Klein, Joe Beda
+*Sponsor / Advisor from TOC*: Joe Beda, Matt Klein
 
 *Unique identifier:* networkservicemesh
 
@@ -41,8 +41,8 @@ Developers never have to know or think about 35 year old legacy Networking conce
 
 *Initial Committers*:
 * Frederick Kautz (doc.ai)
-* Ed Warnicke (Cisco)
 * Nikolay Nikolaev (VMWare)
+* Ed Warnicke (Cisco)
 
 *Infrastructure requirements (CI / CNCF Cluster)*: CI (currently use CircleCI), Packet/GKE/AKS/EKS/etc time for system tests
 
