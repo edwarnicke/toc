@@ -18,7 +18,7 @@ Network Service Mesh takes a true Cloud native approach to the problem space, ma
 
 Network Service Mesh is designed to allow a workload to dynamically request at any point in its lifecycle the L2/L3 Network Service it needs.   It makes networking itself Cloud native by loosely coupling with the existing immutable infrastrcture in K8s to deliver whatever non-standard Networking needs a workload has with minimal toil.
 
-The Network Service Mesh model is:
+The Network Service Mesh model:
 
 * Developers ask for what Network Service they want by name
 * Developers can add metadata to their request for a Network Service with labels.
@@ -74,12 +74,12 @@ Developers never have to know or think about 35 year old legacy Networking conce
 
 *Community size and existing sponsorship*:
 
-* Github Stars: 111
-* Github Forks: 38
+* Github Stars: 127
+* Github Forks: 42
 * Code Contributors: 18
 * Usual meeting census: ~20
 * Youtube views of Weekly meetings: link:https://www.youtube.com/results?search_query=network+service+mesh+wg+2019[More than 100 typically]
-* Youtube views of Network Service Mesh Intro talk at Kubecon NA 2018: link:https://www.youtube.com/watch?v=YeAKtUFaqQ0&t=2s[More than 1400]
+* Youtube views of Network Service Mesh Intro talk at KubeCon NA 2018: link:https://www.youtube.com/watch?v=YeAKtUFaqQ0&t=2s[More than 1400]
 * Existing Sponsors:
   * Bell Canada
   * Cisco
@@ -90,6 +90,6 @@ Developers never have to know or think about 35 year old legacy Networking conce
 
 *Other Reference Material*:
 
-* Network Service Mesh Intro (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit[Slides] (link:https://www.youtube.com/watch?v=YeAKtUFaqQ0[Video])
-* Netowrk Service Mesh Deep Dive (from Kubecon NA 2018) link:https://docs.google.com/presentation/d/1YWagIAT3hCqF8zZ3wpC6woZ038Y42lKpXv12kjKZC6Q/edit#slide=id.g49d60c8d41_2_46[Slides] (link:https://www.youtube.com/watch?v=SGi9LS870rk[Video])
+* Network Service Mesh Intro (from KubeCon NA 2018) link:https://docs.google.com/presentation/d/1Vzmhv5vc10NyAa08ny-CCbveo0_fWkDckbkCD_N0fPg/edit[Slides] (link:https://www.youtube.com/watch?v=YeAKtUFaqQ0[Video])
+* Netowrk Service Mesh Deep Dive (from KubeCon NA 2018) link:https://docs.google.com/presentation/d/1YWagIAT3hCqF8zZ3wpC6woZ038Y42lKpXv12kjKZC6Q/edit#slide=id.g49d60c8d41_2_46[Slides] (link:https://www.youtube.com/watch?v=SGi9LS870rk[Video])
 * link:https://docs.google.com/presentation/d/18OrkofcPZnyBIRlPSSZV1gG8cY8kjYHsoN1mDlRu2Ro[Network Service Mesh Slide for Presentation to TOC]
